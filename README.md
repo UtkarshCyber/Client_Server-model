@@ -7,7 +7,14 @@ Prerequisites
 - Python 3.12.2
 - A file to transfer (e.g., data.txt)
 
-How to Run
+Create a virtual environment:
+- python -m venv venv
+
+Activate the virtual environment:
+On Windows:
+- venv\Scripts\activate
+
+How to Run:
 
 1. Clone the Repository
 Clone or download the project files to your local machine.
@@ -53,3 +60,4 @@ Key Functions:
 - receive_file_chunks: Receives file chunks and reassembles the file.
 - is_corrupted: Detects corrupted chunks.
 - verify_checksum: Verifies the file integrity using the checksum.
+
