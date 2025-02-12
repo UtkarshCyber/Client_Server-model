@@ -90,7 +90,7 @@ def send_file_chunks(server_host, server_port, file_path, chunk_size):
 def main():
     server_host = "127.0.0.1"
     server_port = 8080
-    file_path = "download.jfif"  # File to transfer
+    file_path = "data.txt"  # File to transfer
     chunk_size = 1024  # Chunk size (1 KB)
 
     # Send file chunks to the client
