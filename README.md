@@ -20,7 +20,7 @@ How to Run:
 Clone or download the project files to your local machine.
 
 2. Set Up the Environment
-Ensure Python 3.x is installed. No additional dependencies are required.
+Ensure Python 3.12.2 is installed. No additional dependencies are required.
 
 3. Prepare the File to Transfer
 Place the file you want to transfer (e.g. data.txt) in the same directory as the server script.
